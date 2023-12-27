@@ -56,4 +56,3 @@ VALUES
 );
 
 SELECT * FROM tbl_menu WHERE menu_code = 17;
-
