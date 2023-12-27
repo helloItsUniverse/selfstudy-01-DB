@@ -33,8 +33,9 @@ UPDATE tbl_menu
  WHERE menu_code = 22;
  
  
- 
+-- ------------------
 -- REPLACE
+-- ------------------
 
 REPLACE
   INTO tbl_menu
