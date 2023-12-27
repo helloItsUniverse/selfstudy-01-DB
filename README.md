@@ -4,4 +4,4 @@
 
 by Wooju So
 
-### DBMS: MariaDB
+### RDBMS: MariaDB
