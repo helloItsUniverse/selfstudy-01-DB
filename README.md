@@ -2,6 +2,7 @@
 
 ### Self studying area for DB
 
-by Wooju So
+by Wooju So 소우주
 
 ### RDBMS: MariaDB
+
