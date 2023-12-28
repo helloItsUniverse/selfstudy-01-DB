@@ -277,7 +277,7 @@ DROP TABLE IF EXISTS user_check;
 CREATE TABLE IF NOT EXISTS user_check (
     user_no INT AUTO_INCREMENT PRIMARY KEY,
     user_name VARCHAR(255) NOT NULL,
-    gender VARCHAR(3) CHECK(gender IN ('남','여')),
+    gender VARCHAR(3) CHECK(gender IN ('남', '여')),
     age INT CHECK (age >= 19)
 ) ENGINE=INNODB;
 
@@ -328,7 +328,7 @@ INSERT
   INTO tbl_country
 VALUES (NULL, DEFAULT, DEFAULT, DEFAULT, DEFAULT);
 
--- insert시 default 설정된 컴럼을 무시하고 insertㅎ면 NULL 이 아닌 default 로 초기 세팅된 값이 들어간다.
+-- insert시 default 설정된 컬럼을 무시하고 insert하면 NULL 이 아닌 default 로 초기 세팅된 값이 들어간다.
 INSERT
   INTO tbl_country
 (country_code)
