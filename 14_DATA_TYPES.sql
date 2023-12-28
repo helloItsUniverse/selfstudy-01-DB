@@ -5,13 +5,13 @@ SELECT AVG(menu_price) FROM tbl_menu;
 -- 1. 숫자 -> 숫자
 
 --소수점에서 반올림해 정수까지 출력
-SELECT CAST(AVG(menu_price) AS UNSIGNED INTEGER) AS '가격평균' FROM tbl_menu
+SELECT CAST(AVG(menu_price) AS UNSIGNED INTEGER) AS '가격평균' FROM tbl_menu;
 
 -- 소수점 이하 한자리까지 출력
-SELECT CAST(AVG(menu_price) AS FLOAT) AS '가격평균' FROM tbl_menu
+SELECT CAST(AVG(menu_price) AS FLOAT) AS '가격평균' FROM tbl_menu;
 
 -- 소수점 이하 12자리까지 출력
-SELECT CAST(AVG(menu_price) AS DOUBLE) AS '가격평균' FROM tbl_menu
+SELECT CAST(AVG(menu_price) AS DOUBLE) AS '가격평균' FROM tbl_menu;
 
 -- 2. 문자 -> 날짜
 -- 2023년 12월 27일을 date형으로 변환
